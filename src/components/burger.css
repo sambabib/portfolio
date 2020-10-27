@@ -1,0 +1,29 @@
+.burger {
+    border: 1px solid #663399;
+    justify-self: end;
+    cursor: pointer;
+}
+
+#line-1 {
+    width: 18px; 
+}
+
+#line-2 {
+    width: 5px;
+}
+
+#line-3 {
+    width: 15px;
+}
+
+#line-1:hover {
+    width: 12px;
+}
+
+#line-2:hover {
+    width: 8px;
+}
+
+#line-3:hover {
+    width: 9px;
+}
