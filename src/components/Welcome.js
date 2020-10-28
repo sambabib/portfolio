@@ -21,17 +21,19 @@ const Welcome = () => {
               stagger: .1,
               delay: .1
           });
-      })
+      }, []);
 
     return (
         <div ref={(el) => {transition = el}}>
-            <ul className='transition'>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul> 
+            <div className='container'>
+                <ul className='transition'>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul> 
+            </div>
         </div>
     )
 }
